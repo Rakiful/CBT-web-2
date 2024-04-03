@@ -8,7 +8,7 @@
 
 body{
     font-family: "poppins", sans-serif;
-
+    background-color: rgb(245, 245, 245);
 }
 
 .section-contain{
@@ -52,6 +52,7 @@ body{
     border: 0;
     border-radius: 25px;
     cursor: pointer;
+    background-color: #dce1e2;
 }
 .user-img{
     width: 50px;
@@ -76,11 +77,11 @@ body{
     font-size: 60px;
     line-height: 70px;
 }
-.Banner-section-right-contain h6{
+.Banner-section-right-contain p{
     font-size: 20px;
     line-height: 50px;
     font-weight: 500;
-    color: rgb(130, 126, 126);
+    color: rgb(109, 106, 106);
 }
 .get-start-btn{
     background-color: rgb(22, 102, 250);
@@ -92,4 +93,40 @@ body{
     border-radius: 25px;
     cursor: pointer;
     margin-top: 15px;
+}
+
+/* Why choose style here  */
+.why-choose-section{
+    margin: 50px 0px;
+}
+.why-choose-section-title{
+    font-size: 40px;
+    line-height: 90px;
+}
+.why-choose-section-paragraph{
+    font-size: 20px;
+    color: rgb(76, 74, 74);
+    font-weight: 500;
+}
+.why-choose-card-items{
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+.why-choose-section-card{
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    gap: 20px;
+}
+.why-choose-section-card i{
+    font-size: 25px;
+}
+.why-choose-section-card h4{
+    font-size: 20px;
+    margin: 5px 0px;
+}
+.why-choose-section-card p{
+    font-size: 18px;
 }
